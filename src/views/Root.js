@@ -1,11 +1,7 @@
 import React from 'react';
 
 const Root = () => {
-  return (
-    <>
-      Portfolio test
-    </>
-  );
+  return <>Portfolio test test</>;
 };
 
 export default Root;
