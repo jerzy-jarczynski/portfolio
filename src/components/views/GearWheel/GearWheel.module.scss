@@ -1,0 +1,21 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.GearWheel {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  opacity: 0.03;
+  z-index: 11;
+  
+  img {
+    animation: rotate 20s linear infinite;
+  }
+}
