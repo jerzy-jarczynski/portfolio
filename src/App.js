@@ -1,10 +1,11 @@
-import MidLayer from 'components/views/MidLayer/MidLayer';
+import MidLayer from 'components/layout/MidLayer/MidLayer';
+import MainLayout from 'components/layout/MainLayout/MainLayout';
 
 const App = () => {
   return (
     <>
       <MidLayer />
-      <div>Portfolio</div>
+      <MainLayout>Hello World!</MainLayout>
     </>
   );
 };

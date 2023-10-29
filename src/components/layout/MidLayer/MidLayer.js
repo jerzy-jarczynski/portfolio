@@ -1,4 +1,4 @@
-import GearWheel from 'components/views/GearWheel/GearWheel';
+import GearWheel from 'components/layout/GearWheel/GearWheel';
 import styles from './MidLayer.module.scss';
 
 const MidLayer = () => {
