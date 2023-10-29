@@ -6,10 +6,8 @@ import styles from './MainLayout.module.scss';
 const MainLayout = ({ children }) => {
   return (
     <div className={styles.MainLayout}>
-      <Container>
-        {children}
-        <Footer />
-      </Container>
+      <Container>{children}</Container>
+      <Footer />
     </div>
   );
 };

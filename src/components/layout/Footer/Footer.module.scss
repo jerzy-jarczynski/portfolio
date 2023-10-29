@@ -5,4 +5,8 @@
   color: $color-white-opacity;
   font-size: 12px;
   font-weight: 400;
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
