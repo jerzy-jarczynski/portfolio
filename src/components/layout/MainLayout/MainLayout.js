@@ -1,12 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Footer from '../Footer/Footer';
 import styles from './MainLayout.module.scss';
 
 const MainLayout = ({ children }) => {
   return (
-    <Container>
-      <div className={styles.MainLayout}>{children}</div>
-    </Container>
+    <div className={styles.MainLayout}>
+      <Container>
+        {children}
+        <Footer />
+      </Container>
+    </div>
   );
 };
 
