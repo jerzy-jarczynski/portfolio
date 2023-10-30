@@ -1,0 +1,17 @@
+.ButtonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+
+  > div {
+    margin: 0 8px;
+  }
+
+  > div:first-of-type {
+    margin-left: 0;
+  }
+
+  > div:last-of-type {
+    margin-right: 0;
+  }
+}

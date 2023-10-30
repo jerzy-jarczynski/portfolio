@@ -1,0 +1,33 @@
+@import "../../../styles/settings.scss";
+
+.Button {
+  border-radius: 25px;
+  border: 1px solid $color-light-green;
+  box-shadow: 0px 0px 8px 0px rgba($color-light-green, 0.40);
+  display: inline-flex;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  color: $color-light-green;
+  font-family: $font-text;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .4s ease;
+
+  &:hover {
+    border: 1px solid $color-white;
+    box-shadow: 0px 0px 20px 0px rgba($color-white, 0.40);
+    color: $color-white;
+  }
+}
+
+.ButtonImportant {
+  background: $color-light-green;
+  color: $color-deep-green;
+
+  &:hover {
+    background: $color-white;
+    color: $color-darkest-gray;
+  }
+}
