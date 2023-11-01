@@ -1,0 +1,12 @@
+.Socials {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding-bottom: 8px;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
+}

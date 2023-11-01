@@ -1,0 +1,34 @@
+.SocialButton {
+  display: inline-block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all .4s ease;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease;
+  }
+
+  img.SocialButtonIconHover {
+    opacity: 0;
+  }
+
+  &:hover {
+    transform: scale(125%);
+  }
+
+  &:hover > img.SocialButtonIconHover {
+    opacity: 100%;
+  }
+}
