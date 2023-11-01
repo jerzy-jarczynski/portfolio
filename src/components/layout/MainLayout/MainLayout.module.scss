@@ -5,3 +5,17 @@
   padding-bottom: 42px;
   padding-top: 82px;
 }
+
+.MainLayoutActions {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1320px;
+  padding: 0 12px;
+}

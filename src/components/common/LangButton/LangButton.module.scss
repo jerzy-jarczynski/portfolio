@@ -1,5 +1,5 @@
-.SocialButton {
-  display: inline-block;
+.LangButton {
+  display: none;
   position: relative;
   width: 32px;
   height: 32px;
@@ -19,7 +19,7 @@
     transition: all .4s ease;
   }
 
-  img.SocialButtonIconHover {
+  img.LangButtonIconActive {
     opacity: 0;
   }
 
@@ -27,11 +27,19 @@
     transform: scale(125%);
   }
 
-  &:hover > img.SocialButtonIconHover {
+  &:hover > img.LangButtonIconActive {
+    opacity: 100%;
+  }
+
+  &.LangButtonActive {
+    display: inline-block;
+  }
+
+  &.LangButtonActive > img.LangButtonIconActive {
     opacity: 100%;
   }
 }
 
-div.SocialButton:first-of-type {
+div.LangButton:first-of-type {
   margin-top: 0;
 }
